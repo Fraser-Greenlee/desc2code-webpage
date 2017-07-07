@@ -1,0 +1,179 @@
+
+@media (max-width: 900px) {
+  html section {
+    height: initial;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #282c34;
+  }
+
+  html side {
+    display: block;
+    height: initial;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  html img {
+    margin: 0px;
+    width: calc(100% - 90px);
+    margin-bottom: 60px;
+    max-width: 419px;
+    margin-top: 10px;
+  }
+
+  html .rev img {
+    /* margin-bottom: -100%; */
+    margin-top: 15px;
+  }
+
+  html h2 {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  html input[type="email"] {
+    font-size: 17px;
+    width: 150px;
+  }
+
+  html input[type="submit"] {
+    font-size: 17px;
+    padding: 5px;
+    vertical-align: 0px;
+  }
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background: #fff;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: #34373a;
+}
+
+section#promo_vid {
+    display: block;
+    height: calc(100% - 100px);
+    background: #282c34;
+}
+
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="email"] {
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #757575;
+    width: 300px;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    font-size: 19px;
+    -webkit-appearance: button;
+    background: none;
+    border: 1px solid #007bdc;
+    background: #03A9F4;
+    color: #fff;
+    padding: 7px;
+    border-radius: 3px;
+    vertical-align: 2px;
+    cursor: pointer;
+}
+
+section {
+    height: 500px;
+}
+
+side {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+h2 {
+    font-weight: 400;
+    color: #495861;
+    text-align: center;
+    margin-top: 161px;
+    font-size: 31px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    display: inline-block;
+    width: calc(50% - 50px);
+    box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.39);
+    border-radius: 6px;
+    vertical-align: baseline;
+    margin-bottom: 142px;
+}
+
+div#centreholder {
+    text-align: center;
+}
+
+#centreholder section {
+    max-width: 900px;
+    display: inline-block;
+    width: 100%;
+}
+
+#promo_vid div {padding-top: 204px;color: #ffffff;}
+
+h1 {
+    margin-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+#promo_vid p {
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+
+}
+
+
+footer {
+    padding: 60px;
+}
+
+footer span {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #3696ff;
+}
