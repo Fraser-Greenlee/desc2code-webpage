@@ -10,12 +10,17 @@
   }
 }
 @media (max-width: 900px) {
-  html section:not(#promo_vid) {
+  html div#sample {
+    display: none;
+  }
+  html div#titleholder {
+    max-width: 100%;
+  }
+  html section:not(#promo) {
     height: initial;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: 1px solid #282c34;
   }
 
   html side {
@@ -56,8 +61,8 @@
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 300;
+    font-size: 36px;
     text-align: center;
     margin: 0px;
     display: inline-block;
@@ -82,10 +87,20 @@ p {
     color: #34373a;
 }
 
-section#promo_vid {
+section#promo {
     display: block;
-    height: calc(100% - 100px);
-    background-color: #282c34;
+    /* height: calc(100% - 100px); */
+    background-color: #2a2d3a;
+    text-align: center;
+    height: inherit;
+    padding-bottom: 90px;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
 }
 
 
@@ -127,7 +142,7 @@ side {
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 300;
     color: #495861;
     text-align: center;
     margin-top: 161px;
@@ -156,14 +171,16 @@ div#centreholder {
 }
 
 h1 {
-    margin-top: 90px;
+    margin-top: 60px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
 
-#promo_vid p {
-    color: #fff;
+#promo p {
+    color: #d0d0d0;
+    text-align: left;
+    display: block;
 }
 
 input[type="submit"]:hover {
@@ -197,13 +214,16 @@ logo {
 }
 
 div#sample {
-    padding-top: 100px;
     text-align: center;
     font-size: 0px;
+    display: inline-block;
+    max-width: calc(50% - 30px);
+    position: relative;
+    top: -14px;
+    margin-left: 40px;
 }
 
 #sample span {
-    padding: 30px;
     color: #fff;
     display: inline-block;
     font-size: 20px;
@@ -212,14 +232,16 @@ div#sample {
 }
 
 arrow {
-    width: 40px;
-    display: inline-block;
     height: 35px;
-    background-image: url("arrow-right.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%;
     vertical-align: middle;
+    display: block;
+    width: 100%;
+    background-image: url("arrow-down.png");
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 blue {
@@ -269,23 +291,45 @@ form#mc-embedded-subscribe-form {
 #titleholder h1 {
     color: #fff;
     display: block;
+    text-align: left;
+    font-family: 'Asap', sans-serif;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.47);
+    margin-bottom: 40px;
+    font-size: 50px;
 }
 
 label {
     font-size: 20px;
 }
 
-#titleholder a.submit {
-  margin-top: 90px;
-  display: initial;
-}
+#titleholder a.submit {display: initial;position: relative;top: 18px;}
 
 
 div#titleholder {
-  text-align: center;
+  text-align: left;
+  display: inline-block;
+  max-width: 50%;
 }
 
 
 #titleholder div {
-    margin-top: 80;
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#last > div {
+    margin-top: 80px;
+}
+
+section.rev {
+    background-color: #f3f3f3;
+}
+
+
+section#last {
+    background-color: #f3f3f3;
+    height: inherit;
+    padding-bottom: 90px;
 }
