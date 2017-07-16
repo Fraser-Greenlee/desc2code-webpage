@@ -1,6 +1,16 @@
-
+@media (max-width: 635px) {
+  html h1 {
+    font-size: 23px;
+    margin-top: 45px;
+  }
+  html arrow {
+    display: block;
+    width: 100%;
+    background-image: url("arrow-down.png");
+  }
+}
 @media (max-width: 900px) {
-  html section {
+  html section:not(#promo_vid) {
     height: initial;
     text-align: center;
     padding-top: 50px;
@@ -24,7 +34,6 @@
   }
 
   html .rev img {
-    /* margin-bottom: -100%; */
     margin-top: 15px;
   }
 
@@ -76,7 +85,7 @@ p {
 section#promo_vid {
     display: block;
     height: calc(100% - 100px);
-    background: #282c34;
+    background-color: #282c34;
 }
 
 
@@ -108,7 +117,7 @@ input[type="submit"] {
 }
 
 section {
-    height: 500px;
+    height: 490px;
 }
 
 side {
@@ -147,10 +156,10 @@ div#centreholder {
     width: 100%;
 }
 
-#promo_vid div {padding-top: 204px;color: #ffffff;}
+#promo_vid div:last-child {color: #ffffff;}
 
 h1 {
-    margin-top: 100px;
+    margin-top: 90px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
@@ -188,4 +197,46 @@ logo {
     font-family: 'Asap', sans-serif;
     position: absolute;
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.47);
+}
+
+div#sample {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 0px;
+}
+
+#sample span {
+    padding: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+}
+
+arrow {
+    width: 40px;
+    display: inline-block;
+    height: 35px;
+    background-image: url("arrow-right.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    vertical-align: middle;
+}
+
+blue {
+    color: #60AEEE;
+}
+
+purple {
+    color: #C477DB;
+}
+
+green {
+    color: #98C379;
+}
+
+#sample span:last-child {
+    text-align: left;
 }
