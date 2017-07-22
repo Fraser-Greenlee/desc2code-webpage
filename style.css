@@ -225,7 +225,7 @@ div#sample {
     display: inline-block;
     max-width: calc(50% - 30px);
     position: relative;
-    top: -48px;
+    top: -84px;
     margin-left: 40px;
 }
 
@@ -353,4 +353,5 @@ section#last {
     padding-left: 15px;
     padding-right: 0px;
     margin-bottom: 30;
+    text-align: left;
 }
