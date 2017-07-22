@@ -344,3 +344,13 @@ section#last {
 #last > form {
     display: inline-block;
 }
+
+
+#titleholder > h2 {
+    margin: 0px;
+    color: #fff;
+    font-size: 26px;
+    padding-left: 15px;
+    padding-right: 0px;
+    margin-bottom: 30;
+}
