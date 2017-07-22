@@ -108,6 +108,7 @@ section#promo {
 form {
     text-align: left;
     margin: 15px;
+    margin-top: 35px;
 }
 
 input[type="email"] {
@@ -131,7 +132,7 @@ input[type="submit"], a.submit {
     vertical-align: 2px;
     cursor: pointer;
     display: block;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 section {
@@ -183,7 +184,7 @@ h1 {
 }
 
 #promo p {
-    color: #d0d0d0;
+    color: #c3bebe;
     text-align: left;
     display: block;
 }
@@ -224,7 +225,7 @@ div#sample {
     display: inline-block;
     max-width: calc(50% - 30px);
     position: relative;
-    top: -30px;
+    top: -48px;
     margin-left: 40px;
 }
 
