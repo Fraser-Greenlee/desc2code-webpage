@@ -88,6 +88,7 @@ p {
 }
 
 section#promo {
+    font-size: 0px;
     display: block;
     /* height: calc(100% - 100px); */
     background-color: #2a2d3a;
@@ -110,8 +111,8 @@ form {
 }
 
 input[type="email"] {
-    font-size: 23px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 7px;
     border-radius: 3px;
     border: 1px solid #757575;
     width: 300px;
@@ -223,7 +224,7 @@ div#sample {
     display: inline-block;
     max-width: calc(50% - 30px);
     position: relative;
-    top: -14px;
+    top: -30px;
     margin-left: 40px;
 }
 
