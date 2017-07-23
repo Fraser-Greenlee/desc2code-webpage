@@ -355,3 +355,11 @@ section#last {
     margin-bottom: 30;
     text-align: left;
 }
+
+lil {
+    font-weight: 100;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 20px;
+    vertical-align: 22px;
+    margin-left: 5px;
+}
