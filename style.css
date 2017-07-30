@@ -144,6 +144,7 @@ side {
     width: 50%;
     height: 100%;
     vertical-align: bottom;
+    max-width: 450px;
 }
 
 h2 {
@@ -170,7 +171,6 @@ div#centreholder {
 }
 
 #centreholder section {
-    max-width: 900px;
     display: inline-block;
     width: 100%;
 }
@@ -362,4 +362,8 @@ lil {
     font-size: 20px;
     vertical-align: 22px;
     margin-left: 5px;
+}
+
+section > img {
+    max-width: 400px;
 }
