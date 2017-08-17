@@ -1,0 +1,51 @@
+div#holder {
+    padding: 15px;
+    font-size: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    background: -webkit-linear-gradient(left, #FFC107, #FF5722);
+}
+
+span#desc {color: #96ca22;color: rgb(20, 15, 51);font-family: 'Nunito', sans-serif;font-weight: 600;font-size: 81px;display: inline-block;}
+
+span#code {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 81px;
+    color: #4e9fea;
+    display: inline-block;
+    color: rgb(82, 255, 0);
+}
+
+span#two {
+    font-size: 89px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: 0px;
+    display: inline-block;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.two span#desc {
+    vertical-align: unset;
+    font-size: inherit;
+    font-weight: 500;
+}
+
+.two span#two {
+    font-family: 'Nunito', sans-serif;
+    font-size: inherit;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.two span#code {
+    font-size: inherit;
+    vertical-align: unset;
+    font-weight: 500;
+}
+
+div#holder.two {
+    font-size: 90px;
+}
